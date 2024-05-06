@@ -2,7 +2,7 @@
 
 ## Schema JSON
 Schema del JSON CV:
--[@jsonresume](https://jsonresume.org/schema/)
+- [@jsonresume.org](https://jsonresume.org/schema/)
 
 ## Referencia:
 Basado en el diseño de
