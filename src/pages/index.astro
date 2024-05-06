@@ -1,12 +1,24 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from '@/layouts/Layout.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Experience from '@/components/sections/Experience.astro';
+import Projects from '@/components/sections/Projects.astro';
+import Skills from '@/components/sections/Skills.astro';
+import About from '@/components/sections/About.astro';
+import Education from '@/components/sections/Education.astro';
+import Keyboard from '@/components/Keyboard.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1 class="font-bold text-white">Hola mundo</h1>
+
+<Layout title="Portfolio Minimalist">
+	<main class="p-16 m-auto w-full">
+		<Hero/>
+		<About/>
+		<Experience/>
+		<Education/>
+		<Skills/>
+		<Projects/>
 	</main>
-	
+	<Keyboard/>
 </Layout>
 
