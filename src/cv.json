@@ -1,0 +1,238 @@
+{
+  "basics": {
+    "name": "Germán Sosa Goy",
+    "label": "Junior FullStack Developer centrado en el aprendizaje continuo y actualmente buscando mejorar las experiencias dentro de un equipo. ",
+    "image": "/me-icon.png",
+    "email": "germanesosagoy@gmail.com",
+    "phone": "+54 3735613422",
+    "url": "https://github.com/germansosagoy",
+    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente trabajando en la Tesis Final de mi Universidad y en una Simulación Laboral. Vivo en Chaco, Argentina. He trabajado en diferentes entornos: desde integración y pruebas de modulos en Odoo utilizando React & Python hasta hoy Desarrollando un Saas de Facturación (IFAC) y a la par también en mi Tesis Final (Appointment).",
+    "location": {
+      "address": "",
+      "postalCode": "3733",
+      "city": "Chaco",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "germansosagoy",
+        "url": "https://www.linkedin.com/in/german-sosa-goy-/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Germansosagoy",
+        "url": "https://github.com/germansosagoy"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Idea Software",
+      "position": "Software Engineer",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2022-06-01",
+      "endDate": "2023-05-01",
+      "summary": "Trabajé en Integraciones y Arquitectura de Software para distintos modulos en 'Odoo' utilizando React, Python, entre otros para clientes del sector agropecuario y comercial. Y también realizamos migraciones de modulos a otros más flexibles y optimizados. Fomentamos el testing y la depuración constante en equipo, además de la entrega rápida de valor a los clientes.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "No-Country",
+      "position": "FrontEnd Developer",
+      "startDate": "2024-04-01",
+      "endDate": "Current",
+      "summary": "Desarrollé un Saas de Facturación para Pymes en Argentina (IFAC) donde tuve la tarea de realizar la Arquitectura y Maquetado completo del mismo e interactuar con los diferentes Endpoints para obtener la correcta información. Recorté los tiempos de entrega y despliegues a producción porque tuvimos solo 4 semanas para la primera presentación. Además de testing y depuración en manejo de errores para los formularios de cada ruta. Al momento se encuentra en constante producción.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "UNSTA",
+      "position": "FrontEnd Developer",
+      "startDate": "2023-11-01",
+      "endDate": "Current",
+      "summary": "Desarrollo de la Aplicación Web 'Appointment' para la Tesis Final de mi Universidad donde estoy realizando la Arquitectura y Maquetado, además de la interacción con los diferentes Endpoints para obtener la correcta información. Aún sin el primer despliegue porque sigue en producción recurrente. ",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional del Norte Santo Tomás de Aquino - UNSTA",
+      "url": "https://www.unsta.edu.ar/",
+      "area": "Universitario en Desarrollo y Calidad del Software",
+      "studyType": "Tecnicatura",
+      "startDate": "2021-01-01",
+      "endDate": "Current",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Diplomatura Web Full Stack con React",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Principiante",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Principiante",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate/Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Midudev",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://mars.codes"
+    },
+    {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+      "url": "https://codi.link",
+      "github": "https://github.com/midudev/codi.link"
+    }
+  ]
+}
