@@ -2,7 +2,7 @@
 
 ## Schema JSON
 Schema del JSON CV:
-- [](https://jsonresume.org/schema/)
+-[@jsonresume](https://jsonresume.org/schema/)
 
 ## Referencia:
 Basado en el diseño de
@@ -10,4 +10,4 @@ Basado en el diseño de
 
 ## Commits
 Implementación de Buenas Practicas en Commits de Git basado en:
-- [](https://codigofacilito.com/articulos/41)
+- [@codigofacilito](https://codigofacilito.com/articulos/41)
