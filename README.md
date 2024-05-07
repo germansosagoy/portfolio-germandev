@@ -1,9 +1,13 @@
+# Portfolio germandev - Astro
+
+## Schema JSON
 Schema del JSON CV:
-https://jsonresume.org/schema/
+- [@jsonresume.org](https://jsonresume.org/schema/)
 
-Basado en el diseño de:
-https://github.com/BartoszJarocki/cv
+## Referencia:
+Basado en el diseño de
+- [@Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
 
-
+## Commits
 Implementación de Buenas Practicas en Commits de Git basado en:
-https://codigofacilito.com/articulos/41
+- [@codigofacilito](https://codigofacilito.com/articulos/41)
