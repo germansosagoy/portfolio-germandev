@@ -1,7 +1,50 @@
 ---
-import Section from "@/components/Section.astro"
+import Section from "@/components/Section.astro";
+import { work } from "@/cv.json";
 ---
 
-<Section title="Experience">
-    
+<Section title="Experiencia Laboral">
+  <ul class="flex flex-col gap-y-4">
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, badges, url }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear = endDate ? new Date(endDate).getFullYear() : "Actual";
+
+          return (
+            <li>
+              <article>
+                <header class="flex justify-between items-start mb-3">
+                  <div class="gap-2 text-base">
+                    <h3 class="font-semibold text-[#111]">
+                      <a class="text-[#111] hover:underline" href={url} title={`Ver ${name}`} target="_blank">
+                        {name}
+                      </a>
+                      <span class="text-xs inline-flex gap-1 items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-gray-100 text-[#555] hover:bg-gray-200 align-middle">
+                        {badges}
+                      </span>
+                    </h3>
+                    <h4 class="text-[#222] font-mono tracking-tight text-sm">{position}</h4>
+                  </div>
+                  <div class="justify-self-end">
+                    <time datetime={startDate} data-title={startDate} class="text-gray-500 text-xs font-mono min-w-[102px] cursor-default sm:text-right">
+                      {startYear}
+                    </time>
+                    {" - "}
+                    <time datetime={endDate} data-title={endDate} class="text-gray-500 text-xs font-mono min-w-[102px] cursor-default sm:text-right">
+                      {endYear}
+                    </time>
+                  </div>
+                </header>
+
+                <footer>
+                  <p class="font-sans text-pretty text-[#555] mt-2 text-sm">{summary}</p>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
 </Section>

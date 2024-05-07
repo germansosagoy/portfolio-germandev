@@ -1,7 +1,11 @@
 ---
-import Section from "@/components/Section.astro"
+import Section from "@/components/Section.astro";
+import { basics } from "@/cv.json";
+const { summary } = basics;
 ---
 
-<Section title="About">
-    
+<Section title="Acerca de mí">
+  <p class="font-sans">
+    {summary}
+  </p>
 </Section>

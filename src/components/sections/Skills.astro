@@ -1,7 +1,14 @@
 ---
 import Section from "@/components/Section.astro"
+import {skills} from '@/cv.json';
 ---
 
 <Section title="Skills">
-    
+    <ul class="flex flex-wrap gap-2">
+    {skills.map(({ name }) => (
+        <li  class="flex inline-flex items-center gap-1 p-1 px-2 py-1 rounded-md text-xs font-sans font-medium text-[#f9fafb] transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-r-transparent bg-[#111827]/90 hover:bg-[#111827]/75  ">
+            <span>{name}</span>
+        </li>
+    ))} 
+    </ul>
 </Section>
