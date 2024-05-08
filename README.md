@@ -6,7 +6,7 @@ Schema del JSON CV:
 
 ## Referencia:
 Basado en el diseño de
-- [@Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
+- [@Bartosz Jarocki](https://github.com/BartoszJarocki)
 
 ## Commits
 Implementación de Buenas Practicas en Commits de Git basado en:
