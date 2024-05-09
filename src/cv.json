@@ -4,7 +4,7 @@
     "label": "Junior FullStack Developer centrado en el aprendizaje continuo y actualmente buscando mejorar las experiencias dentro de un equipo. ",
     "image": "/me-icon.png",
     "email": "germanesosagoy@gmail.com",
-    "phone": "+54 3735613422",
+    "phone": "+54-3735613422",
     "url": "https://github.com/germansosagoy",
     "summary": "2 años de experiencia como Desarrollador de Software. Actualmente en un entorno de Simulación Laboral en No-Country. He trabajado en diferentes entornos: desde integración y pruebas de modulos en Odoo utilizando React & Python hasta hoy Desarrollando un Saas de Facturación (IFAC) para Pymes en Argentina y a la par también trabajando en mi Tesis Final de la Universidad (Appointment).",
     "location": {
@@ -24,11 +24,6 @@
         "network": "GitHub",
         "username": "Germansosagoy",
         "url": "https://github.com/germansosagoy"
-      },
-      {
-        "network": "Medium",
-        "username": "Germanesosagoy",
-        "url": "https://medium.com/@germanesosagoy"
       }
     ]
   },
@@ -36,7 +31,7 @@
     {
       "name": "Idea Software",
       "position": "Software Engineer",
-      "badges": ["Remote"],
+      "badges": ["Remoto"],
       "url": null,
       "startDate": "2021-06-01",
       "endDate": "2023-05-01",
@@ -46,7 +41,7 @@
     {
       "name": "No-Country",
       "position": "FrontEnd Developer",
-      "badges": ["Remote"],
+      "badges": ["Remoto"],
       "url": "https://www.nocountry.tech/",
       "startDate": "2024-04-01",
       "endDate": null,
@@ -56,7 +51,7 @@
     {
       "name": "UNSTA",
       "position": "FrontEnd Developer",
-      "badges": ["Remote"],
+      "badges": ["Híbrido "],
       "url": "https://www.unsta.edu.ar/",
       "startDate": "2023-11-01",
       "endDate": null,
