@@ -1,37 +1,44 @@
 ---
 import Section from "@/components/Section.astro";
-import Mail from "@/assets/icons/Mail.astro"
-import Phone from "@/assets/icons/Phone.astro"
-import LinkedIn from "@/assets/icons/LinkedIn.astro"
-import GitHub from "@/assets/icons/GitHub.astro"
-import WorldMap from "@/assets/icons/WorldMap.astro"
-import Medium from "@/assets/icons/Medium.astro"
+import Mail from "@/assets/icons/Mail.astro";
+import Phone from "@/assets/icons/Phone.astro";
+import LinkedIn from "@/assets/icons/LinkedIn.astro";
+import GitHub from "@/assets/icons/GitHub.astro";
+import WorldMap from "@/assets/icons/WorldMap.astro";
+import Medium from "@/assets/icons/Medium.astro";
 import { basics } from "@/cv.json";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region, countryCode } = location;
 
-
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
-  Medium
-}
+  Medium,
+};
 
+const printInfo = [email, phone].filter(Boolean).join(" • ");
 ---
 
 <Section title="">
   <div class="flex flex-row items-center justify-between gap-4">
     <div class="flex flex-col gap-1 pr-8">
       <h1 class="text-2xl leading-8 font-bold tracking-normal">{name}</h1>
-      <h2 class="text-[#6b7280] text-sm font-mono leading-6 text-pretty">{label}</h2>
-      <a 
-        href="https://maps.app.goo.gl/pvEiNbAsKp5uLKRS7" 
-        class="text-[#6b7280] flex items-center gap-1 text-xs leading-4 font-mono hover:underline cursor-pointer" target="_blank"
-        rel="noopener noreferrer">
+      <h2 class="text-[#6b7280] text-sm font-mono leading-6 text-pretty">
+        {label}
+      </h2>
+      <a
+        href="https://maps.app.goo.gl/pvEiNbAsKp5uLKRS7"
+        class="text-[#6b7280] flex items-center gap-1 text-xs leading-4 font-mono hover:underline cursor-pointer"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <WorldMap class="w-4 h-4" />
-         {city}, {region}, {countryCode}
+        {city}, {region}, {countryCode}
       </a>
-      <footer class="text-[#555] text-[0.65rem] flex gap-[4px] mt-[8px]">
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="text-[#555] text-[0.65rem] flex gap-1 mt-2 no-print">
         {
           email && (
             <a
@@ -41,7 +48,7 @@ const SOCIAL_ICONS: Record<string, any> = {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Mail/>
+              <Mail />
             </a>
           )
         }
@@ -54,7 +61,7 @@ const SOCIAL_ICONS: Record<string, any> = {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <Phone/>
+              <Phone />
             </a>
           )
         }
@@ -79,7 +86,11 @@ const SOCIAL_ICONS: Record<string, any> = {
       </footer>
     </div>
     <figure class="flex justify-center items-center m-auto">
-      <img src={image} alt={name } class="aspect-square object-cover w-56 rounded-2xl opacity-95 shadow-md" />
+      <img
+        src={image}
+        alt={name}
+        class="aspect-square object-cover w-56 rounded-2xl opacity-95 shadow-md"
+      />
     </figure>
   </div>
 </Section>

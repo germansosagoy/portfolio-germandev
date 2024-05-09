@@ -3,9 +3,9 @@ import Section from "@/components/Section.astro"
 import {projects} from "@/cv.json";
 ---
 
-<Section title="Projects">
+<Section title="Proyectos">
     <ul class="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map(({name, url, description, highlights, isActive, github }) => (
+        {projects.map(({name, url, description, highlights, isActive }) => (
             <li>
                 <article class="rounded-lg flex flex-col overflow-hidden border-[1px] border-solid border-[#f2f2f2] gap-4 flex flex-col p-4 h-full">
                     <header class="flex-1">
@@ -14,20 +14,14 @@ import {projects} from "@/cv.json";
                                 {name}
                             </a>
                             {isActive && 
-                            <span class="text-green-500 [animation-name:flicker] [animation-duration:3s][animation-timing-function:ease-in][animation-iteration-count:infinite]">
+                            <span class="text-green-400 [animation-name:flicker] [animation-duration:3s][animation-timing-function:ease-in][animation-iteration-count:infinite]">
                                 •
                             </span>}
-                            {/* {github && (
-                                <a href={github} class="" target="_blank" title={`Ver código fuente en ${name}`} class="ml-1 text-xs">
-                                    <Github/>
-                                </a>
-                            )} */}
                             </h3>
                         <p class="text-xs leading-2">{description}</p>
                     </header>
                     <footer class="flex flex-wrap gap-1.5">
                         {highlights.map ((highlight) => (
-                        //  <span class="rounded-md bg-[#f3f4f6] text-[#111827] font-mono font-semibold leading-5">{highlight}</span>
                          <span class="rounded-md text-[0.6rem] border px-1 py-0.5 font-mono font-semibold bg-[#f3f4f6] text-[#111827]">{highlight}</span>
                         ))}
                     </footer>
