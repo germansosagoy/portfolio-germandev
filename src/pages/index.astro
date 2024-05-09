@@ -6,11 +6,12 @@ import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 import About from '@/components/sections/About.astro';
 import Education from '@/components/sections/Education.astro';
-// import Keyboard from '@/components/Keyboard.astro';
+import Keyboard from '@/components/Keyboard.astro';
+import {basics} from '@/cv.json';
 ---
 
 
-<Layout title="Germán Sosa Goy | Portfolio">
+<Layout title=`Portafolio de ${basics.name} - ${basics.label}`>
 	<main class="p-16 m-auto w-full">
 		<Hero/>
 		<About/>
@@ -19,6 +20,6 @@ import Education from '@/components/sections/Education.astro';
 		<Skills/>
 		<Projects/>
 	</main>
-	<!-- <Keyboard/> -->
+	<Keyboard/>
 </Layout>
 
