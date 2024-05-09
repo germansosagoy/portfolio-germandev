@@ -49,6 +49,8 @@ const profilesInfo = profiles.map(({ network, url }) => {
   </kbd> + <kbd class="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-[#6b7280]/5 px-1.5 text-[10px] font-medium">
     <span class="text-xs">K</span>
   </kbd>para abrir la paleta de comandos.
+  {" | "}
+  <span class="text-xs text-[#6b7280]">Hecho con respeto y gratitud hacia <a href="https://www.linkedin.com/in/bjarocki" target="_blank" class="underline">Bartosz Jarocki</a></span>
 </footer>
 
 <ninja-keys
@@ -76,8 +78,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
     const info = ninja.getAttribute("data-info") ?? "[]";
     const parsedInfo = JSON.parse(info) as Info[]
 
-    console.log(info)
-
     const data = parsedInfo.map((item: any) => {
       return {
         ...item,
@@ -103,16 +103,4 @@ const profilesInfo = profiles.map(({ network, url }) => {
       ...data,
     ];
   }
-  // window.addEventListener('scroll', () => {
-  //   const footer = document.querySelector('footer');
-  //   if (footer !== null || window.scrollY > 0) {
-  //     footer.classList.remove('hidden');
-  //     footer.classList.add('block', 'opacity-100');
-  //   } else {
-  //     footer.classList.remove('block', 'opacity-100');
-  //     footer.classList.add('opacity-0');
-  //     setTimeout(() => footer.classList.add('hidden'), 500);
-  //   }
-  // });
-
 </script>
