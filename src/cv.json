@@ -6,7 +6,7 @@
     "email": "germanesosagoy@gmail.com",
     "phone": "+54-3735613422",
     "url": "https://github.com/germansosagoy",
-    "summary": "2 años de experiencia como Desarrollador de Software. Actualmente en un entorno de Simulación Laboral en No-Country. He trabajado en diferentes entornos: desde integración y pruebas de modulos en Odoo utilizando React & Python hasta hoy Desarrollando un Saas de Facturación (IFAC) para Pymes en Argentina y a la par también trabajando en mi Tesis Final de la Universidad (Appointment).",
+    "summary": "2 años de experiencia como Desarrollador de Software. Actualmente en un entorno de Simulación Laboral en No-Country. He trabajado en diferentes entornos: desde integración y pruebas de modulos en Odoo utilizando React & Python hasta hoy Desarrollando un Saas de Facturación (IFAC) para Pymes en Argentina y a la par también trabajando en mi Tesis Final de la Universidad.",
     "location": {
       "address": "",
       "postalCode": "3733",
@@ -35,7 +35,7 @@
       "url": null,
       "startDate": "2021-06-01",
       "endDate": "2023-05-01",
-      "summary": "Trabajé en Integraciones y Arquitectura de Software para distintos modulos en 'Odoo' utilizando React, Python, entre otros stacks para clientes del sector agropecuario y comercial. Y también realizamos migraciones de modulos a otros más flexibles y optimizados. Fomentamos el testing y la depuración constante en equipo, además de la entrega rápida de valor a los clientes.",
+      "summary": "Trabajé en la integración y arquitectura de software para módulos de 'Odoo' usando React, Python, entre otros stacks. Atendiendo a clientes del sector agropecuario y comercial. Realicé migraciones a módulos más flexibles y optimizados, fomentando el testing y la depuración en equipo constante y entregando valor rápidamente a los clientes.",
       "highlights": ["Started the company"]
     },
     {
@@ -113,7 +113,7 @@
       "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
-      "name": "CSS",
+      "name": "CSS3",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
