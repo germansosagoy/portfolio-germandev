@@ -6,7 +6,7 @@
     "email": "germanesosagoy@gmail.com",
     "phone": "+54-3735613422",
     "url": "https://github.com/germansosagoy",
-    "summary": "2 años de experiencia como Desarrollador de Software. Actualmente en un entorno de Simulación Laboral en No-Country. He trabajado en diferentes entornos: desde integración y pruebas de modulos en Odoo utilizando React & Python hasta hoy Desarrollando un Saas de Facturación (IFAC) para Pymes en Argentina y a la par también trabajando en mi Tesis Final de la Universidad.",
+    "summary": "Con 2 años de experiencia como Desarrollador de Software, he trabajado en diversos entornos. Mi experiencia incluye la integración y pruebas de módulos en Odoo utilizando React y Python. Actualmente, desarrollando un SaaS de facturación (IFAC) para PYMEs en Argentina, al tiempo que avanzo en la realización de mi Tesis Final para la universidad.",
     "location": {
       "address": "",
       "postalCode": "3733",
@@ -55,7 +55,7 @@
       "url": "https://www.unsta.edu.ar/",
       "startDate": "2023-11-01",
       "endDate": null,
-      "summary": "Desarrollo de la Aplicación Web 'Appointment' para la Tesis Final de mi Universidad donde estoy realizando la Arquitectura y Maquetado, además de la interacción con los diferentes Endpoints para obtener la correcta información. Aún sin el primer despliegue porque sigue en producción recurrente. ",
+      "summary": "Desarrollo de la Aplicación Web 'Appointment' para la Tesis Final de mi Universidad donde estoy realizando la Arquitectura y Maquetado, además de la interacción con los diferentes Endpoints para obtener la correcta información. Aún sigue en producción recurrente. ",
       "highlights": ["Started the company"]
     }
   ],
@@ -85,15 +85,6 @@
       "studyType": "Diplomatura Universitaria",
       "startDate": "2020-12-01",
       "endDate": "2021-06-01",
-      "courses": null
-    },
-    {
-      "institution": "FreeCode Camp - CCO",
-      "url": "https://www.freecodecamp.org/certification/germanesosagoy/responsive-web-design",
-      "area": "Certificado en Developer Responsive Web Design",
-      "studyType": "Diplomatura Universitaria",
-      "startDate": "2020-04-01",
-      "endDate": "2021-01-01",
       "courses": null
     },
     {
