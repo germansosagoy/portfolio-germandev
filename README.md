@@ -9,5 +9,5 @@ Basado en el diseño de
 - [@Bartosz Jarocki](https://github.com/BartoszJarocki)
 
 ## Commits
-Implementación de Buenas Practicas en Commits basado en:
+Implementación de Buenas Practicas en Commits:
 - [@codigofacilito](https://codigofacilito.com/articulos/41)
