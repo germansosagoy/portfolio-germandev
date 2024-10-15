@@ -23,78 +23,61 @@ const { title } = Astro.props;
 
 <style is:global>
 	html {
-		font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
-		background: #fff;
-		letter-spacing: -0.025rem;
+	  font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
+	  background: #fff;
+	  letter-spacing: -0.025rem;
 	}
-	body, figure{
-		margin: 0;
-		padding: 0;
+	body, figure {
+	  margin: 0;
+	  padding: 0;
 	}
-	a{
-		text-decoration: none;
+	a {
+	  text-decoration: none;
 	}
-	ul{
-		list-style: none;
-		margin: 0;
-		padding: 0;
+	ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
 	}
 	*,
 	*::before,
 	*::after {
-        box-sizing: border-box;
-  	}
-	h1,h2,h3,h4 {
-    margin: 0;
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue",
-      sans-serif;
-  }
-	
-	p{
-		color: #6b7280;
-		font-size: 15px;
-		line-height: 20px;
-		letter-spacing: normal;
-		margin: 0;
-		text-wrap: pretty;
-		text-align: justify;
+	  box-sizing: border-box;
 	}
-	
+	h1, h2, h3, h4 {
+	  margin: 0;
+	  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	}
+	p {
+	  color: #6b7280;
+	  font-size: 15px;
+	  line-height: 20px;
+	  letter-spacing: normal;
+	  margin: 0;
+	  text-wrap: pretty;
+	  text-align: justify;
+	}
 	.print {
-    display: none !important;
-  }
-
-  @media print {
-    .no-print {
-      display: none !important;
-    }
-
-    .print {
-      display: block !important;
-    }
-
-    astro-dev-toolbar {
-      display: none !important;
-    }
-
-    article {
-      break-inside: avoid;
-    }
-	@media print {
-		ninja-keys{
-			display: none !important
-		}
+	  display: none !important;
 	}
-  }
-
-</style>
+  
+	@media print {
+	  .no-print {
+		display: none !important;
+	  }
+	  body {
+		font-size: 12px;
+		margin: 10mm 10mm;
+	  }
+	  section, div, article {
+		page-break-inside: avoid;
+	  }
+	  astro-dev-toolbar {
+		display: none !important;
+	  }
+	  ninja-keys {
+		display: none !important;
+	  }
+	}
+  </style>
+  

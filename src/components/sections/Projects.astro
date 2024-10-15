@@ -1,32 +1,42 @@
 ---
-import Section from "@/components/Section.astro"
-import {projects} from "@/cv.json";
+import Section from "@/components/Section.astro";
+import { projects } from "@/cv.json";
 ---
 
 <Section title="Proyectos">
-    <ul class="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map(({name, url, description, highlights, isActive }) => (
-            <li>
-                <article class="rounded-lg flex flex-col overflow-hidden border-[1px] border-solid border-[#f2f2f2] gap-4 flex flex-col p-4 h-full">
-                    <header class="flex-1">
-                            <h3 class="mb-1">
-                            <a href={url} target="_blank" title={`Ver el proyecto en ${name}`} class="text-[#111] tracking-tight text-base font-semibold hover:underline">
-                                {name}
-                            </a>
-                            {isActive && 
-                            <span class="text-green-400 [animation-name:flicker] [animation-duration:3s][animation-timing-function:ease-in][animation-iteration-count:infinite]">
-                                •
-                            </span>}
-                            </h3>
-                        <p class="text-xs leading-2">{description}</p>
-                    </header>
-                    <footer class="flex flex-wrap gap-1.5">
-                        {highlights.map ((highlight) => (
-                         <span class="rounded-md text-[0.6rem] border px-1 py-0.5 font-mono font-semibold bg-[#f3f4f6] text-[#111827]">{highlight}</span>
-                        ))}
-                    </footer>
-                </article>
-            </li>
-        ))}
-    </ul>
+  <ul class="-mx-2.5 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-2">
+    {
+      projects.map(({ name, url, description, highlights, isActive }) => (
+        <li>
+          <article class="rounded-xl flex flex-col overflow-hidden border-[1px] border-solid border-[#f2f2f2] gap-4 p-4 h-full ">
+            <header class="flex flex-col">
+              <h3 class="mb-1">
+                <a
+                  href={url}
+                  target="_blank"
+                  title={`Ver el proyecto en ${name}`}
+                  class="text-[#111] tracking-tight text-base font-semibold hover:underline"
+                >
+                  {name}
+                </a>
+                {isActive && (
+                  <span class="text-green-400 animate-pulse">
+                    •
+                  </span>
+                )}
+              </h3>
+              <p class="text-xs font-sans leading-tight">{description}</p>
+            </header>
+            <footer class="flex flex-wrap gap-1">
+              {highlights.map((highlight) => (
+                <span class="rounded-md text-[0.6rem] border px-1 py-0.5 font-mono font-semibold bg-slate-200/70 text-[#111827]">
+                  {highlight}
+                </span>
+              ))}
+            </footer>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
 </Section>

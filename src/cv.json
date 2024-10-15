@@ -6,7 +6,7 @@
     "email": "germanesosagoy@gmail.com",
     "phone": "+54-3735613422",
     "url": "https://github.com/germansosagoy",
-    "summary": "Con 2 años de experiencia como Desarrollador de Software, he trabajado en diversos entornos. Mi experiencia incluye la integración y pruebas de módulos en Odoo utilizando React y Python. Actualmente, desarrollando un SaaS de facturación (IFAC) para PYMEs en Argentina, al tiempo que avanzo en la realización de mi Tesis Final para la universidad.",
+    "summary": "Desarrollador FullStack Junior con 2 años de experiencia, especializado en tecnologías como React, Next.js, TypeScript, Node.js y MongoDb, entre otras. Me enfoco en aplicar soluciones prácticas y escalables que impacten positivamente en los proyectos y negocios de los clientes. Soy un profesional comprometido con el aprendizaje continuo y disfruto colaborar en equipos multidisciplinarios. Mi enfoque siempre está en entregar productos de alta calidad, con atención a los detalles y una mentalidad proactiva para resolver problemas.",
     "location": {
       "address": "",
       "postalCode": "3733",
@@ -35,7 +35,7 @@
       "url": null,
       "startDate": "2021-06-01",
       "endDate": "2023-05-01",
-      "summary": "Trabajé en la integración y arquitectura de software para módulos de 'Odoo' usando React, Python, entre otros stacks. Atendiendo a clientes del sector agropecuario y comercial. Realicé migraciones a módulos más flexibles y optimizados, fomentando el testing y la depuración en equipo constante y entregando valor rápidamente a los clientes.",
+      "summary": "Participé en el diseño, integración y arquitectura de soluciones modulares para 'Odoo', utilizando tecnologías como React y Python, entre otras. Colaboré estrechamente con clientes de los sectores agropecuario y comercial, liderando migraciones a módulos más flexibles y optimizados. Promoví una cultura de testing continuo y trabajo en equipo, logrando una entrega ágil y de alto valor para nuestros clientes.",
       "highlights": ["Started the company"]
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://www.nocountry.tech/",
       "startDate": "2024-04-01",
       "endDate": null,
-      "summary": "Desarrollé un Saas de Facturación para Pymes en Argentina (IFAC) donde tuve la tarea de realizar la Arquitectura y Maquetado completo del mismo e interactuar con los diferentes Endpoints para obtener la correcta información. Recorté los tiempos de entrega y despliegues a producción porque tuvimos solo 4 semanas para la presentación. Además de testing y depuración en manejo de errores para los formularios de cada ruta. Al momento se encuentra en constante producción.",
+      "summary": "Desarrollé la arquitectura y maquetado completo de un SaaS de facturación (IFAC) para PYMEs en Argentina, interactuando con diversos endpoints para garantizar una correcta integración de datos. Optimicé los tiempos de entrega y despliegue a producción en un entorno de trabajo altamente exigente, con solo 4 semanas para la presentación del proyecto. Implementé pruebas y depuración avanzadas, mejorando el manejo de errores en los formularios de cada ruta. El sistema aún sigue en desarrollo continuo.",
       "highlights": ["Started the company"]
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://www.unsta.edu.ar/",
       "startDate": "2023-11-01",
       "endDate": null,
-      "summary": "Desarrollo de la Aplicación Web 'Appointment' para la Tesis Final de mi Universidad donde estoy realizando la Arquitectura y Maquetado, además de la interacción con los diferentes Endpoints para obtener la correcta información. Aún sigue en producción recurrente. ",
+      "summary": "Lidero en el desarrollo y colaboración de la aplicación web 'Appointment' como parte de mi tesis universitaria, encargándome de la arquitectura del backend, maquetado y experiencia final del cliente con la integración con API's para asegurar la correcta obtención y presentación de datos. El proyecto sigue en producción activa y en constante evolución.",
       "highlights": ["Started the company"]
     }
   ],
@@ -210,51 +210,32 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Translate Mate",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "description": "Translate Mate permite traducir texto entre varios idiomas.",
+      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
+      "url": "https://translatemate-app.vercel.app"
     },
     {
-      "name": "AdventJS",
+      "name": "Translate Mate",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
+      "description": "Translate Mate permite traducir texto entre varios idiomas.",
+      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
+      "url": "https://translatemate-app.vercel.app"
     },
     {
-      "name": "Codember",
+      "name": "Modurbana Catálogo",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["Fullstack Developer", "React", "Typescript"],
-      "url": "https://codember.dev"
+      "description": "Modurbana es una Landing Page de Catálogo con productos.",
+      "highlights": ["React", "Typescript", "TailwindCSS", "Vercel", "Vite"],
+      "url": "https://modurbana.online"
     },
     {
-      "name": "Codember",
+      "name": "Portfolio",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "description": "Mi portfolio personal para mostrar mis proyectos y habilidades.",
+      "highlights": ["Astro", "TailwindCSS", "Typescript", "Ninja Keys", "Lucide-astro"],
+      "url": "https://germandev.vercel.app"
     }
   ]
 }
