@@ -79,6 +79,15 @@
       "courses": null
     },
     {
+      "institution": "Cámara de la Industria Argentina del Software de Argentina - CESSI",
+      "url": "https://mumuki.io/argentina-programa/certificates/verify/CDx38dFastktW5OG",
+      "area": " Certificación Argentina Programa #SéProgramar",
+      "studyType": "Certificacion Argentina Programa",
+      "startDate": "2021-05-26",
+      "endDate": "2021-10-26",
+      "courses": null
+    },
+    {
       "institution": "FreeCode Camp - CCO",
       "url": "https://www.freecodecamp.org/certification/germanesosagoy/javascript-algorithms-and-data-structures",
       "area": "Certificado en Javascript Algorithms and Data Structures",
@@ -99,7 +108,7 @@
   ],
   "skills": [
     {
-      "name": "HTML",
+      "name": "HTML5",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend"]
     },
@@ -176,6 +185,11 @@
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
       "name": "Astro",
       "level": "Intermedio",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
@@ -217,11 +231,11 @@
       "url": "https://translatemate-app.vercel.app"
     },
     {
-      "name": "Translate Mate",
+      "name": "Rental Car",
       "isActive": true,
-      "description": "Translate Mate permite traducir texto entre varios idiomas.",
-      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
-      "url": "https://translatemate-app.vercel.app"
+      "description": "Rental Car es una página web para alquiler de vehículos.",
+      "highlights": ["Next.js", "Typescript", "Axios", "TailwindCSS", "Prisma", "Vercel"],
+      "url": "https://rental-car-nu.vercel.app/"
     },
     {
       "name": "Modurbana Catálogo",

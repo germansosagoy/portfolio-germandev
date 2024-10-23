@@ -6,6 +6,7 @@ import LinkedIn from "@/assets/icons/LinkedIn.astro";
 import GitHub from "@/assets/icons/GitHub.astro";
 import WorldMap from "@/assets/icons/WorldMap.astro";
 import Medium from "@/assets/icons/Medium.astro";
+import {StickyNote} from "lucide-astro";
 import { basics } from "@/cv.json";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region, countryCode } = location;
@@ -83,6 +84,15 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
             );
           })
         }
+      <a
+      href="/Germán Sosa Goy-Curriculum Vitae.pdf"
+      download
+      class="text-[#6b7280] inline-flex items-center justify-center ml-8 border-[1px] border-[solid] border-[#eee] p-4 px-2 py-2 rounded-lg [transition:all_0.3s_ease] hover:bg-[#eee] hover:border-[#ddd] group hover:text-black"
+    >
+      Descargar CV
+      <StickyNote size={14} class="ml-2 text-[#6b7280] group-hover:text-black" />
+    </a>
+    
       </footer>
     </div>
     <figure class="flex justify-center items-center m-auto">
