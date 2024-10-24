@@ -15,7 +15,7 @@ import { projects } from "@/cv.json";
                   href={url}
                   target="_blank"
                   title={`Ver el proyecto en ${name}`}
-                  class="text-[#111] tracking-tight text-base font-semibold hover:underline"
+                  class="text-[#111] tracking-tight text-base font-medium hover:underline"
                 >
                   {name}
                 </a>
@@ -25,11 +25,11 @@ import { projects } from "@/cv.json";
                   </span>
                 )}
               </h3>
-              <p class="text-xs font-sans leading-tight">{description}</p>
+              <p class="text-xs text-pretty leading-tight">{description}</p>
             </header>
             <footer class="flex flex-wrap gap-1">
               {highlights.map((highlight) => (
-                <span class="rounded-md text-[0.6rem] border px-1 py-0.5 font-mono font-semibold bg-slate-200/70 text-[#111827]">
+                <span class="rounded-md text-[0.6rem] border px-1 py-0.5  font-semibold bg-slate-200/70 text-[#111827]">
                   {highlight}
                 </span>
               ))}
