@@ -224,13 +224,6 @@
   ],
   "projects": [
     {
-      "name": "Translate Mate",
-      "isActive": true,
-      "description": "Translate Mate permite traducir texto entre varios idiomas.",
-      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
-      "url": "https://translatemate-app.vercel.app"
-    },
-    {
       "name": "Rental Car",
       "isActive": true,
       "description": "Rental Car es una página web para alquiler de vehículos.",
@@ -243,6 +236,13 @@
       "description": "Modurbana es una Landing Page de Catálogo con productos.",
       "highlights": ["React", "Typescript", "TailwindCSS", "Vercel", "Vite"],
       "url": "https://modurbana.online"
+    },
+    {
+      "name": "Translate Mate",
+      "isActive": true,
+      "description": "Translate Mate permite traducir texto entre varios idiomas.",
+      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
+      "url": "https://translatemate-app.vercel.app"
     },
     {
       "name": "Portfolio",
