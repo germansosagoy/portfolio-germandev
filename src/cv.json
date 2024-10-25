@@ -227,22 +227,36 @@
       "name": "Rental Car",
       "isActive": true,
       "description": "Rental Car es una página web para alquiler de vehículos.",
-      "highlights": ["Next.js", "Typescript", "Axios", "TailwindCSS", "Prisma", "Vercel"],
+      "highlights": ["Next.js", "Typescript", "Prisma", "Axios", "TailwindCSS", "Shadcn UI", "Uploadthing", "Zustand"],
       "url": "https://rental-car-nu.vercel.app/"
+    },
+    {
+      "name": "Appointment",
+      "isActive": true,
+      "description": "Appointment es una web para conectar con personas a través de actividades y eventos sociales.",
+      "highlights": ["React.js", "Javascript", "Axios", "TailwindCSS", "Framer-motion", "React-query", "Clerk", "Supabase"],
+      "url": "https://appointment-gilt.vercel.app/"
     },
     {
       "name": "Modurbana Catálogo",
       "isActive": true,
       "description": "Modurbana es una Landing Page de Catálogo con productos.",
-      "highlights": ["React", "Typescript", "TailwindCSS", "Vercel", "Vite"],
+      "highlights": ["React.js", "Typescript", "TailwindCSS", "Vercel", "Vite"],
       "url": "https://modurbana.online"
     },
     {
       "name": "Translate Mate",
       "isActive": true,
       "description": "Translate Mate permite traducir texto entre varios idiomas.",
-      "highlights": ["React", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
+      "highlights": ["React.js", "Typescript", "Axios", "TailwindCSS", "MicrosoftAPI"],
       "url": "https://translatemate-app.vercel.app"
+    },
+    {
+      "name": "Calculadora IMC",
+      "isActive": true,
+      "description": "Calculadora IMC permite calcular el indice de masa CORPORAL de una persona.",
+      "highlights": ["React.js", "Javascript", "Axios", "TailwindCSS", "uiball/loaders", "React-hot-toast", "Vite", "Vercel"],
+      "url": "https://calculadora-imc-lm-nine.vercel.app"
     },
     {
       "name": "Portfolio",

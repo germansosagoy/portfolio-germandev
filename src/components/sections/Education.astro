@@ -18,8 +18,9 @@ import {education} from '@/cv.json';
                     <header class="flex justify-between items-start mb-2">
                       <div class="gap-2 text-base">
                         <h3 class="font-semibold text-[#111]">
-                          <a class="text-[#111] hover:underline" href={url} title={`Ver ${institution}`} target="_blank">
+                          <a class="text-[#111] hover:underline flex items-center" href={url} title={`Ver ${institution}`} target="_blank">
                             {institution}
+                            <img src="/public/icons/arrow.svg" alt="arrow" class="w-3 h-3 ml-2">
                           </a>
                         </h3>
                       </div>
